@@ -1,11 +1,17 @@
 .top-bar {
+  position: fixed;
+  top: 0px;
+  width: 100%;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 3px 5px;
+  justify-content: space-between; /*양끝으로 정렬됨*/
+  align-items: center; /*세로축 중심 맞춰주기*/
+  padding: 3px 5px; /*처음에 margin으로 주니까 베터리 아이콘 부분이 짤림 그래서
+                            padding으로 공간을 주고*/
+  box-sizing: border-box; /*이걸로 잘린 부분을 맞춰주었음*/
 }
 
 .top-bar__service {
+  /*이렇게 따로 넓이를 33% 주니까 중간에 딱 맞아졌었음*/
   width: 33%;
 }
 
@@ -42,6 +48,8 @@
 }
 
 .header-welcome__text {
+  /*글 문단의 전체적인 넓이와 높이를 설정해주었음 
+                        그럼 좀 자연스럽게 문단줄이 나뉘어짐 */
   width: 350px;
   height: 50px;
 }
