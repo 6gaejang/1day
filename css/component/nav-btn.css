@@ -31,11 +31,19 @@
   left: 20px;
 }
 
-.nav-bar__icons .fa-ellipsis-h {
+.nav-bar div:last-child {
+  position: relative;
+}
+
+.nav-bar__icons .nav-bar__icons-ellipsis {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 5px;
   height: 5px;
+  border-radius: 2.5px;
   background-color: tomato;
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
 }

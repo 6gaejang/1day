@@ -55,12 +55,6 @@
   font-weight: 600;
 }
 
-.main-contnet__friends {
-  display: flex;
-  justify-content: row;
-  align-items: center;
-}
-
 .main-contnet__user img {
   height: 80px;
   width: 80px;
@@ -73,13 +67,23 @@
   font-weight: 600;
 }
 
-.main-contnet__friends img {
+.main-contnet__chanel {
+  display: flex;
+  justify-content: row;
+  align-items: center;
+}
+.main-contnet__chanel-Name {
+  margin-left: 20px;
+  font-size: 24px;
+}
+
+.main-contnet__chanel img {
   height: 60px;
   width: 60px;
   border-radius: 20px;
 }
 
-.main-contnet__friends {
+.main-contnet__chanel {
   display: flex;
   justify-content: space-between;
   align-items: center;
