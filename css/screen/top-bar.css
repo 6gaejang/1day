@@ -8,6 +8,7 @@
   padding: 3px 5px; /*처음에 margin으로 주니까 베터리 아이콘 부분이 짤림 그래서
                             padding으로 공간을 주고*/
   box-sizing: border-box; /*이걸로 잘린 부분을 맞춰주었음*/
+  background-color: white;
 }
 
 .top-bar__service {
