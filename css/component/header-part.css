@@ -1,0 +1,33 @@
+.header-name__div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 45px 20px;
+}
+
+.header-name__title {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.header-name__div i {
+  margin-left: 20px;
+}
+
+.header-name__subtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+}
+
+.header-name__subtitle i:first-child {
+  margin-right: 5px;
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.header-name__subtitle i:last-child {
+  margin-left: 10px;
+  color: rgba(0, 0, 0, 0.2);
+}
