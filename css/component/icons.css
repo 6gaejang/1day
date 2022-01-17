@@ -1,0 +1,128 @@
+.main-contnet-find {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.main-contnet-find__icosn i {
+  margin-bottom: 30px;
+}
+
+.main-contnet-find__icosn {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 80px;
+}
+
+.main-contnet-find__text {
+  display: flex;
+  flex-direction: column;
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 600;
+}
+
+.main-contnet-find__text span:first-child {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px 0px;
+  font-size: 14px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.main-contnet-find__text span:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 160px;
+  padding: 15px;
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.main-contnet-find__opnechat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 600;
+  padding: 10px;
+}
+
+.main-contnet-find__opnechat span:first-child {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 15px;
+}
+
+.main-contnet-find__opnechat span:last-child {
+  color: rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+}
+
+.main-contnet-find__screenchat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  margin-bottom: 10px;
+}
+
+.main-contnet-find__hashtagtitle {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.main-contnet-find__hashtagtext {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 600;
+}
+
+.main-contnet-find__hashtag span {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.3);
+  font-weight: 600;
+}
+
+.main-contnet-find__hashtag img {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+}
+
+.main-contnet-find__img {
+  position: relative;
+}
+
+.find__img {
+  height: 80px;
+  width: 80px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.infinite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 3px 10px;
+  border-radius: 10px;
+  color: white;
+  font-size: 14px;
+  position: absolute;
+  left: 20px;
+  bottom: 10px;
+}
+
+.main-contnet-find__screenchat i {
+  font-size: 1px;
+  margin-right: 3px;
+}

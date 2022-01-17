@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
 @import "reset.css"; /*리셋, 초기설정*/
 @import "root.css"; /*자주 사용하는 세팅*/
 @import "login.css"; /*index 로그인 form*/
@@ -7,6 +8,7 @@
 /*component*/
 @import "component/nav-btn.css";
 @import "component/header-part.css";
+@import "component/icons.css";
 
 /*screen*/
 @import "screen/top-bar.css"; /*공용 상단 css*/
@@ -14,6 +16,6 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-
-  height: 500vh;
+  font-family: "Noto Sans KR", sans-serif;
+  height: 1000vh;
 }
