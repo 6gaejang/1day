@@ -120,6 +120,7 @@
   position: absolute;
   left: 20px;
   bottom: 10px;
+  cursor: pointer;
 }
 
 .main-contnet-find__screenchat i {

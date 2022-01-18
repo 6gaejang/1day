@@ -4,6 +4,7 @@
 @import "login.css"; /*index 로그인 form*/
 @import "friends.css";
 @import "chats.css";
+@import "more.css";
 
 /*component*/
 @import "component/nav-btn.css";
@@ -18,4 +19,8 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-family: "Noto Sans KR", sans-serif;
   height: 1000vh;
+}
+
+i {
+  cursor: pointer;
 }
