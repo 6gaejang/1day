@@ -1,95 +1,37 @@
-.main-header-part {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 200px;
-  width: 100%;
-  background-color: rgb(235, 221, 221);
-}
-
-.header-part {
-  width: 33%;
-}
-
-.header-part__user img {
-  width: 60px;
-  height: 60px;
-  border-radius: 30px;
-}
-
-.header-part__user {
-  display: flex;
-  align-items: center;
+.main-news {
   margin-left: 20px;
-  margin-bottom: 80px;
-}
-
-.header-part__user span {
-  margin-left: 10px;
-  font-size: 25px;
-  font-weight: bold;
-}
-
-.header-part__logo {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  font-size: 100px;
-  border-radius: 20px;
-  background-color: rgb(160, 195, 209);
+  justify-content: flex-start;
 }
 
-.header-part__search {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.main__gameinpo {
+  width: 240px;
+  padding: 5px;
+  margin-left: 60px;
+  border: 3px solid rgb(98, 164, 190);
+  border-radius: 10px;
 }
 
-.header-part__search input {
-  width: 250px;
-  height: 30px;
-  border: 1px solid goldenrod;
+.game__img img {
+  width: 240px;
+  height: 70px;
   border-radius: 5px;
 }
 
-.header-part:last-child {
-  position: relative;
-}
-
-.header-part__search i {
-  padding: 10px;
-  cursor: pointer;
-  background-color: goldenrod;
-  position: absolute;
-  bottom: 0px;
-  right: 30px;
-  border-radius: 0px 5px 5px 0px;
-}
-
-.main__navigation {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 10px 30px;
-}
-
-.main__navigation {
-  display: flex;
-  height: 30px;
-  border: 2px solid rgb(185, 160, 18);
-}
-
-.main__nav {
-  padding: 20px;
-  font-family: monospace;
-  font-weight: bold;
-  color: goldenrod;
-}
-
-.main-news {
-  margin: 20px;
+.game__site {
   display: flex;
   justify-content: center;
-  background-color: rgb(16, 156, 156);
+  text-align: center;
+  margin: 10px;
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding-bottom: 5px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.game__site img {
+  width: 240px;
+  height: 50px;
+  border-radius: 5px;
 }
